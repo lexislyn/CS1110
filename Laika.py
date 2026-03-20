@@ -216,7 +216,6 @@ def tick(keys):
            camera.draw(gamebox.from_text(camera.x, camera.y - 100, "Game Over", 100, "red"))
            camera.draw(gamebox.from_text(camera.x, camera.y + 80, "Your score is: " + str(score), 35, "white"))
            camera.draw(gamebox.from_text(camera.x, camera.y + 50, "Press q to leave", 35, "white"))
-           camera.draw(gamebox.from_text(camera.x, camera.y + 300, "ticks: " + str(ticks) + "score:" + str(score), 35, "white"))
            camera.display()
 
        if ticks == 3000:
